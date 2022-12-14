@@ -1,0 +1,4 @@
+#configuracao do EVE (Roteador) da empresa
+ifconfig eth0 172.16.1.1 netmask 255.255.255.0 up
+
+

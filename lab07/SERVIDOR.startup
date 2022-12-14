@@ -1,0 +1,9 @@
+#configuracao do SERVIDOR da empresa
+ifconfig eth0 10.1.1.1 netmask 255.0.0.0 up
+ifconfig eth1 202.135.187.131 netmask 255.255.255.192 up
+route add default gw 202.135.187.129 dev eth1
+echo 1 > /proc/sys/net/ipv4/ip_forward
+iptables -F
+iptables -F -t mangle
+iptables -F -t nat
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE

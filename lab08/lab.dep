@@ -1,0 +1,7 @@
+website: roteador
+othersite: roteador
+firewall: roteador
+gerente: firewall
+financeiro: firewall
+servidor: firewall
+estagiario: firewall

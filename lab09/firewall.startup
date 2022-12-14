@@ -1,0 +1,10 @@
+#configuracao do host firewall.empresa.usp 
+ifconfig eth0 10.1.1.1 netmask 255.255.255.0 up
+ifconfig eth1 202.135.187.131 netmask 255.255.255.0 up
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+iptables -F
+iptables -F -t nat
+iptables -F -t mangle
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE

@@ -1,0 +1,9 @@
+ifconfig eth0 202.111.182.131 netmask 255.255.255.0 broadcast 202.111.182.255 up
+ifconfig eth1 192.168.1.1 netmask 255.255.255.0 broadcast 192.168.1.255 up
+route add default gw 202.111.182.129 dev eth0
+echo 1 > /proc/sys/net/ipv4/ip_forward
+iptables -F
+iptables -F -t nat
+iptables -F -t mangle
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+/etc/init.d/squid restart

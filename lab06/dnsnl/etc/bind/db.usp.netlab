@@ -1,0 +1,12 @@
+$TTL 60000
+@               IN      SOA     dnsnl.netlab.usp.    root.dnsnl.netlab.usp. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        15 ; negative cache ttl
+                        )
+@               IN      NS      dnsnl.netlab.usp.
+dnsnl           IN      A       10.0.0.30
+www		IN	A	10.0.0.31
+mysql		IN	A	10.0.0.32

@@ -1,0 +1,8 @@
+dnsusp: dnsroot
+dnlnl: dnsusp
+nsvalinor: dnsusp
+web: nsvalinor
+dbs: nsvalinor
+www: dnsnl
+mysql: dnsnl
+

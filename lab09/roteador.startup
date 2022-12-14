@@ -1,0 +1,4 @@
+#configuracao do host roteador
+ifconfig eth0 143.102.212.109 netmask 255.255.255.0 up
+ifconfig eth1 202.135.187.129 netmask 255.255.255.0 up
+

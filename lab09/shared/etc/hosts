@@ -1,0 +1,13 @@
+#Gerado automaticamente 
+127.0.0.1         localhost
+10.1.1.1          firewall.empresa.usp     firewall
+10.1.1.10         financeiro.empresa.usp   financeiro
+10.1.1.20         gerente.empresa.usp      gerente
+10.1.1.24         estagiario.empresa.usp   estagiario
+10.1.1.51         servidor.empresa.usp     servidor
+202.135.187.131   home.empresa.usp         home
+202.135.187.129   roteador1.rirtua.not     rirtua
+143.102.212.109   roteador2.internet.ext   roteador
+143.102.212.121   www.website.com          website
+143.102.212.122   www.othersite.com        othersite
+

@@ -1,0 +1,2 @@
+#configuracao do host ALICE
+ifconfig eth0 172.16.1.5 netmask 255.255.255.0 up

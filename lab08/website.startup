@@ -1,0 +1,2 @@
+#configuracao do host www.website.com
+ifconfig eth0 143.102.212.121 netmask 255.255.255.0 up

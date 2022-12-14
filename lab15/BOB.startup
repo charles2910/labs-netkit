@@ -1,0 +1,2 @@
+#configuracao do host BOB
+ifconfig eth0 172.16.1.3 netmask 255.255.255.0 up

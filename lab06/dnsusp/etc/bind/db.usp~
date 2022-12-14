@@ -1,0 +1,16 @@
+$TTL   60000
+@               IN      SOA     dnsusp.usp.    root.dnsusp.usp. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      dnsusp.usp.
+dnsusp              IN      A       10.0.0.10
+
+valinor             IN      NS      nsvalinor.valinor.usp.
+nsvalinor.valinor   IN      A       10.0.0.20
+
+dnsnl               IN      NS      dnsnl.netlab.usp.
+dnsnl.netlab        IN      A       10.0.0.30

@@ -1,0 +1,21 @@
+; reverse lookup database 
+$TTL    1
+@               IN      SOA     5.0.0.10.in-addr.arpa.    nobody.nowhere. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl 
+                        )
+@                            IN      NS      5.0.0.10.in-addr.arpa.
+5.0.0.10.in-addr.arpa.       IN      A       10.0.0.5
+5          PTR        .
+10         PTR        dnsusp.usp.
+20         PTR        nsvalinor.valinor.usp.
+21         PTR        web.valinor.usp.
+22         PTR        dbs.valinor.usp.
+30         PTR        dnsnl.netlab.usp.
+31         PTR        www.netlab.usp.
+32         PTR        mysql.netlab.usp.
+
+

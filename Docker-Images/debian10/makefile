@@ -3,4 +3,4 @@
 all: netkit
 
 netkit:
-	docker build -t netkit/netkit:debian10 netkit
+	docker build -t lsec/netkit-lsec:debian10 netkit

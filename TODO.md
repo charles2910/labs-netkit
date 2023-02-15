@@ -1,7 +1,7 @@
 # Progresso da conversão
 
 [x] Laboratório 00
-[ ] Laboratório 01
+[x] Laboratório 01
 [ ] Laboratório 02
 [ ] Laboratório 03
 [ ] Laboratório 04

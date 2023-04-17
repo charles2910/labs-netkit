@@ -19,3 +19,6 @@
 [x] Laboratório 16
 [ ] Laboratório 17
 [ ] Laboratório 18
+
+## Anotações extras
+[ ] Reportar bug no `kathara list` com usuário comum

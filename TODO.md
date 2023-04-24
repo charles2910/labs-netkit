@@ -2,7 +2,7 @@
 
 [x] Laboratório 00
 [x] Laboratório 01
-[ ] Laboratório 02
+[x] Laboratório 02
 [ ] Laboratório 03
 [ ] Laboratório 04
 [ ] Laboratório 05

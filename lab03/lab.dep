@@ -1,5 +1,5 @@
-HOST1: ROTEADOR1
-HOST2: ROTEADOR1
-HOST3: ROTEADOR2
-HOST4: ROTEADOR2
+host1: roteador1
+host2: roteador1
+host3: roteador2
+host4: roteador2
 

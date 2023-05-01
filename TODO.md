@@ -22,3 +22,4 @@
 
 ## Anotações extras
 [ ] Reportar bug no `kathara list` com usuário comum
+[ ] Criar Makefile bonitinho

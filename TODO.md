@@ -3,7 +3,7 @@
 [x] Laboratório 00
 [x] Laboratório 01
 [x] Laboratório 02
-[ ] Laboratório 03
+[x] Laboratório 03
 [ ] Laboratório 04
 [ ] Laboratório 05
 [ ] Laboratório 06
@@ -23,3 +23,6 @@
 ## Anotações extras
 [ ] Reportar bug no `kathara list` com usuário comum
 [ ] Criar Makefile bonitinho
+[ ] Converter do ifconfig para o ip * tools
+[ ] Converter do quagga para o frr
+[ ] consertar o lab 4 (quagga crasha quando eth2 ro rot5 é desligado)
